@@ -1,3 +1,15 @@
+ div.child_div{
+    font-size: 1.5rem;
+    backgroung-clolor: #ffffff;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.child_div p {
+    display: block;
+    margin: 0rem'
+}
+ 
  div#flex_container {
     display: flex;
     justify-content: space-around;
