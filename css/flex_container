@@ -6,7 +6,7 @@ hi {
     color: #ffffff;
 }
  
- div.child_div{
+div.child_div{
     font-size: 1.5rem;
     backgroung-clolor: #ffffff;
     margin: 0.5rem;
@@ -17,8 +17,17 @@ hi {
     display: block;
     margin: 0rem'
 }
+
+div#flex_container {
+    display: flex;
+}
  
- div#flex_container {
+div#flex_container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div#flex_container {
     display: flex;
     justify-content: space-around;
 }
